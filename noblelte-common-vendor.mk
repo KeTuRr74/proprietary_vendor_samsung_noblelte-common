@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := vendor/samsung/zero-common/proprietary
+LOCAL_PATH := vendor/samsung/noblelte-common/proprietary
 
 LOCAL_VENDOR_FILES := $(shell find $(LOCAL_PATH) -type f | sed -n 's|^$(LOCAL_PATH)/||p')
 $(foreach vendor_file, $(LOCAL_VENDOR_FILES), \
